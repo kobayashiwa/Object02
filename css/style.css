@@ -20,14 +20,14 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+header {
+	background: #000;
+}
 
 
 /**
 
-.heading {
-	text-align: center;
-	margin-bottom: 80px;
-}
+
 .Destinations {
 	margin: 128px 0;
 }
