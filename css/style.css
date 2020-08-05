@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+	color: #2C3543;
+}
+a {
+	text-decoration: none;
+	color: #2C3744;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/**
+
+.heading {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.Destinations {
+	margin: 128px 0;
+}
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+.RowFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.SightsList {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -30px;
+}
+.Map {
+	width: 50%;
+	padding-left: 30px;
+}
+.Map img {
+	width: 100%;
+}
+.Item {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 24px 0 24px 30px;
+	border-bottom: 1px solid #E2E7EA;
+}
+.cover {
+	width: 40%;
+	position: relative;
+}
+.cover img {
+	width: 100%;
+}
+.detail {
+	width: 60%;
+	padding-left: 24px;
+	font-weight: 300;
+}
+.rank {
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	background: rgb(0, 0, 0, 0.6);
+	top: 0;
+	left: 0;
+}
+.country {
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.area {
+	font-size: 11px;
+	color: #B6C3CA;
+	text-transform: uppercase;
+}
+@media (max-width: 1000px) {
+	h3 {
+		font-size: 32px;
+	}
+	.heading {
+		margin-bottom: 48px;
+	}
+	.RowFlex {
+		flex-direction: column;
+	}
+	.SightsList {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 48px;
+	}
+	.Map {
+		width: 100%;
+		padding-left: 0;
+	}
+}
+@media (max-width: 670px) {
+	.SightsList {
+		width: 100%;
+		flex-direction: column;
+		margin-left: 0;
+	}
+	.Item {
+		width: 100%;
+		padding: 24px 0;
+	}
+}
+
+
+
