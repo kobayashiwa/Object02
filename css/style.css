@@ -27,7 +27,6 @@ header {
 	padding: 0 20px;
 	display: flex;
 	flex-wrap: wrap;
-	line-height: 90px;
 }
 .navbar-brand {
 	width: 10%;
@@ -40,6 +39,7 @@ header {
 	display: flex;
 	width: 90%;
 	padding-left: 40px;
+	align-items: center;
 }
 .sub-nav {
 	display: flex;
@@ -47,11 +47,14 @@ header {
 	width: 70%;
 }
 .sub-nav .nav-item {
+	max-width: 14%;
 	padding: 0 24px;
+	text-transform: uppercase;
 }
 .sub-nav .nav-item a {
 	font-size: 16px;
 	font-weight: 400;
+	line-height: 1.2;
 }
 .input-group-append {
 	width: 20%;
