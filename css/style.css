@@ -103,6 +103,14 @@ header {
 .input-group-append {
 	width: 15%;
 }
+#sbox1{
+	font-size: 14px;
+	border-radius:2px;
+	border: 1px solid #444444;
+	outline:0;
+	background:#2B2B2B;
+	padding: 12px 16px;	
+}
 .btn {
 	width: 10%;
 }
