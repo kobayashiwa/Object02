@@ -46,8 +46,12 @@ header {
 	flex-wrap: wrap;
 	width: 70%;
 }
-.sub-nav .nav-item{
-	width: 14%;
+.sub-nav .nav-item {
+	padding: 0 24px;
+}
+.sub-nav .nav-item a {
+	font-size: 16px;
+	font-weight: 400;
 }
 .input-group-append {
 	width: 20%;
