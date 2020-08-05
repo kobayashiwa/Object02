@@ -22,15 +22,16 @@ ul, li {
 }
 header {
 	background: #000;
+	height: 90px;
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 
 /**
 
 
-.Destinations {
-	margin: 128px 0;
-}
 .container {
 	width: 100%;
 	max-width: 1290px;
