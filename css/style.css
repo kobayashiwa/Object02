@@ -35,6 +35,14 @@ header {
 .navbar-brand img {
 	width: 100%;
 }
+.navbar-collapse {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sub-nav {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 
 /**
