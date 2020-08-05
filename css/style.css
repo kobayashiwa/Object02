@@ -30,22 +30,30 @@ header {
 	line-height: 90px;
 }
 .navbar-brand {
-	width: 105px;
+	width: 10%;
 	padding-top: 20px;
-	margin-right: 40px;
 }
 .navbar-brand img {
-	width: 100%;
+	max-width: 105px;
 }
 .navbar-collapse {
 	display: flex;
+	width: 90%;
+	padding-left: 40px;
 }
 .sub-nav {
 	display: flex;
 	flex-wrap: wrap;
+	width: 70%;
+}
+.sub-nav .nav-item{
+	width: 14%;
 }
 .input-group-append {
 	width: 20%;
+}
+.btn {
+	width: 10%;
 }
 
 
