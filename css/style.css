@@ -60,8 +60,8 @@ header {
 .sub-nav .cp_ipselect {
 	overflow: hidden;
 	width: 90%;
-	margin: 0 auto;
-	padding: 0 10px;
+	margin: 0 24px;
+	padding: 0;
 	text-align: center;
 }
 .cp_ipselect select {
@@ -83,26 +83,22 @@ header {
 }
 .cp_ipselect.cp_sl01 {
 	position: relative;
-	border: 1px solid #bbbbbb;
-	border-radius: 2px;
-	background: #ffffff;
 }
 .cp_ipselect.cp_sl01::before {
 	position: absolute;
-	top: 0.8em;
-	right: 0.9em;
+	top: 0.5em;
+	left: 5em;
 	width: 0;
 	height: 0;
 	padding: 0;
 	content: '';
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
-	border-top: 6px solid #666666;
+	border-top: 6px solid #fff;
 	pointer-events: none;
 }
 .cp_ipselect.cp_sl01 select {
-	padding: 8px 38px 8px 8px;
-	color: #666666;
+	color: #fff;
 }
 .input-group-append {
 	width: 15%;
